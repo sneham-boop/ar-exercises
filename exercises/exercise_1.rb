@@ -9,8 +9,7 @@ burnaby = Store.new
 burnaby.name = "Burnaby"
 burnaby.annual_revenue = 300000
 burnaby.mens_apparel = true
-burnaby.womens_apparel = false
-puts "#{burnaby.name} was created!"
+burnaby.womens_apparel = true
 burnaby.save
 
 richmond = Store.new
