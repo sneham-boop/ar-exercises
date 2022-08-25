@@ -49,10 +49,10 @@ puts "\n\n\n"
 end
 
 puts "\n\n\n"
-@womens_stores = Store.where(womens_apparel: true )
+@womens_stores = Store.where('womens_apparel= true AND annual_revenue<1000000')
 
 @womens_stores.each do |store|
-  if store.annual_revenue <= 1000000 
+  # if store.annual_revenue <= 1000000 
     puts "Store name: #{store.name} and annual revenue is #{store.annual_revenue}"
-  end
+  # end
 end
