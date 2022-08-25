@@ -19,7 +19,7 @@ ActiveRecord::Base.establish_connection(
   min_messages: 'error'
 )
 puts 'CONNECTED'
-
+ 
 puts 'Setting up Database (recreating tables) ...'
 
 ActiveRecord::Schema.define do

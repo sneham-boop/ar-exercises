@@ -16,7 +16,7 @@ That said, feel free to connect to your Postgres database using `psql` or pgAdmi
 ## Instructions
 
 ### Setup
-
+ 
 1. Create a new Postgres database. Use `psql postgres` to connect to the database server. Use `create database ar_exercises;` to create the database.
 2. Take a look at the `establish_connection` method call in `setup.rb`. This will allow Active Record to connect to _your_ Postgres database. If you are using vagrant, you should not need to make any changes here.
 3. Run `bundle install` to install the gems.
